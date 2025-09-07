@@ -4,14 +4,9 @@
 //
 // Features
 // • Clean dashboard (AAO, AAD, Crit+, XP%, HP, Nano, +Damage, Armor Classes)
-// • Pins with delta blink, persistence, and 0/12345678 filtering
-// • Grouped stats browser with search (auto-opens matching groups), hide-per-item (persisted)
-// • Rate cap knob (250/500/1000) + numeric interval (persisted)
-// • Mini overlay window, draggable, theme-aware
-// • Theming hook via NotumHUD.themes.json + several daring built-in themes
-// • AC grid auto-expands downward; numeric pills never overflow
+// • Grouped stats browser with search (auto-opens matching groups), hide-per-item
+// • Rate cap knob (250/500/1000)
 //
-// Persistence file: NotumHUD.config.json (next to DLL)
 //
 // Refs: AOSharp.Core.dll, AOSharp.Common.dll | TargetFramework: .NET 4.7.2 (C# 7.3)
 
@@ -1060,3 +1055,4 @@ body.compact .card{padding:8px}
 })();
 ";
 }
+
